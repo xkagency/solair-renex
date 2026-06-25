@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7A00"/>
+      <stop offset="100%" stop-color="#FF0000"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer circle -->
+  <circle cx="32" cy="32" r="30" fill="url(#g)"/>
+  <!-- Sun rays (8 short lines radiating out) -->
+  <circle cx="32" cy="32" r="11" fill="white"/>
+  <!-- Ray top -->
+  <rect x="30" y="4" width="4" height="8" rx="2" fill="white"/>
+  <!-- Ray bottom -->
+  <rect x="30" y="52" width="4" height="8" rx="2" fill="white"/>
+  <!-- Ray left -->
+  <rect x="4" y="30" width="8" height="4" rx="2" fill="white"/>
+  <!-- Ray right -->
+  <rect x="52" y="30" width="8" height="4" rx="2" fill="white"/>
+  <!-- Ray top-left -->
+  <rect x="13" y="11" width="4" height="8" rx="2" fill="white" transform="rotate(-45 15 15)"/>
+  <!-- Ray top-right -->
+  <rect x="47" y="11" width="4" height="8" rx="2" fill="white" transform="rotate(45 49 15)"/>
+  <!-- Ray bottom-left -->
+  <rect x="13" y="45" width="4" height="8" rx="2" fill="white" transform="rotate(45 15 49)"/>
+  <!-- Ray bottom-right -->
+  <rect x="47" y="45" width="4" height="8" rx="2" fill="white" transform="rotate(-45 49 49)"/>
+</svg>
